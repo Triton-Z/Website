@@ -7,6 +7,12 @@ export const metadata = {
 
 const links = [
     {
+        name: "Club Application Forms",
+        link: "https://docs.google.com/document/d/1QXXVcJwAnVjUmRR4Vpz7R9o9IhBTbwL76rZT19EVULg/edit?tab=t.0",
+        emoji: "📝",
+        description: ""
+    },
+    {
         name: "Team App (IOS/Apple)",
         link: "https://apps.apple.com/app/6446333310",
         emoji: "📱",
@@ -17,12 +23,6 @@ const links = [
         link: "https://play.google.com/store/apps/details?id=org.team2658.nautilus",
         emoji: "📱",
         description: "Our new team app for managing attendance and scouting at competitions!"
-    },
-    {
-        name: "Club Application Forms",
-        link: "https://forms.gle/fevkLeCxBf77txYM6",
-        emoji: "📝",
-        description: ""
     },
     {
         name: "Instagram",

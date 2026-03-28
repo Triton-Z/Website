@@ -9,7 +9,49 @@ export default function Home() {
             <Hero />
             {/* <SponsorSnippet /> */}
             <hr />
-            <div className="pb-5 bg-teamYellow-500">
+            <div className="pb-5 bg-teamYellow-500 pt-10">
+                {/* 2026 San Diego Regional */}
+                <div className="grid grid-cols-1 2xl:grid-cols-3 pb-[3vh]">
+                    <div className="col-span-1 lg:mx-[4vw] mx-[10vw]">
+                        <div className="flex-col border-l-4 border-black pl-5 md:pl-6 py-2">
+                            <p className="font-bold uppercase tracking-widest opacity-70 mb-2 text-sm">
+                                Latest Highlight
+                            </p>
+                            <h1 className="text-r5xl font-semibold">
+                                2026 San Diego Regional Champions
+                            </h1>
+                            <p className="text-rmd mt-6">
+                                Team Σ-Motion rose to the challenge and brought home the blue banner from the 2026 San Diego Regional, an official FIRST Robotics Competition event held at Francis Parker High School!
+                            </p>
+                            <br />
+                            <p className="text-rmd">
+                                Competing against 40 esteemed teams, our students and mentors showcased exceptional teamwork and dedication. Our 2026 robot was designed with unique innovations that allowed us to maintain high consistency throughout the demanding matches. This victory highlights our team's commitment to continuous improvement, engineering excellence, and the core values of FIRST.
+                            </p>
+                            <div className="mt-10">
+                                <Link
+                                    className="text-rmd underline font-semibold select-none"
+                                    href="https://www.thebluealliance.com/event/2026casnd"
+                                    target="_blank"
+                                >
+                                    View Match Results
+                                    <ArrowUpRightIcon className="h-[14px] w-[14px] text-black inline no-underline stroke-[4px] translate-x-1/4" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-10 2xl:mt-0 col-span-1 2xl:col-span-2 flex w-full h-full items-center justify-center">
+                        <Image
+                            src="https://cdn.jsdelivr.net/gh/frc-emotion/images@main/outreach/competitions/sdr2026.JPG"
+                            className="w-[90vw] sm:w-[80vw] 2xl:w-[60vw] select-none rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300"
+                            width={3024}
+                            height={1856}
+                            alt="2026 San Diego Regional Victory"
+                        />
+                    </div>
+                </div>
+
+                <hr className="mb-[10vh] border-black border-opacity-10" />
+
                 {/* Mission Statement */}
                 <div
                     id="#about"

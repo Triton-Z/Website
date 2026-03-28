@@ -7,6 +7,15 @@ export default function RobotImages() {
 	const logoFolder = "https://cdn.jsdelivr.net/gh/frc-emotion/images@main/robots"; // last character CANNOT be a '/'
 	const robots = [
 		{
+			name: "Rebuilt",
+			year: "2026",
+			path: `${logoFolder}/rebuilt.JPG`,
+			width: 300,
+			height: 300,
+			description: '',
+			pos: 'top'
+		},
+		{
 			name: "Leviathan",
 			year: "2025",
 			path: `${logoFolder}/leviathan.jpg`,
